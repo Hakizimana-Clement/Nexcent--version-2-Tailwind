@@ -9,10 +9,15 @@ export default {
       colors: {
         D_gray: {
           l_grey: "#89939E",
-          DEFAUT: "#717171",
+          DEFAUT: "#4D4D4D",
           grey_blue: "#ABBED1",
+          grey: "#717171",
           sliver: "#F5F7FA",
+          primary: "#4CAF4F",
         },
+      },
+      screens: {
+        xl: "475px",
       },
     },
   },
