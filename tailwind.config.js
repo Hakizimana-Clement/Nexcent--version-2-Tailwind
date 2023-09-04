@@ -14,10 +14,12 @@ export default {
           grey: "#717171",
           sliver: "#F5F7FA",
           primary: "#4CAF4F",
+          dark: "#18191F",
+          white_grey: "#89939E",
         },
       },
       screens: {
-        xl: "475px",
+        xs: "475px",
       },
     },
   },
