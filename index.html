@@ -8,21 +8,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600,700;900&display=swap"
       rel="stylesheet"
     />
     <title>Nexcent</title>
   </head>
-  <body>
+  <body class="font-inter">
     <header class="padding py-4">
       <nav class="flex justify-between items-center lg:flex">
         <!-- logo image -->
         <div class="flex items-center gap-1 2xl:gap-2">
           <img src="logo.svg" alt="Nexcent logo" />
-          <span class="text-lg font-semibold 2xl:text-3xl">Nexcent</span>
+          <span class="text-xl font-semibold inline-block 2xl:text-3xl"
+            >Nexcent</span
+          >
         </div>
         <!-- links -->
-        <ul class="hidden lg:flex gap-5 items-center">
+        <ul class="hidden lg:flex gap-8 items-center">
           <li>
             <a href="#" class="text-base text-gray-700 2xl:text-2xl">Home</a>
           </li>
@@ -134,7 +136,6 @@
     </header>
     <main>
       <!-- HERO SECTION -->
-
       <section class="pt-5 pb-10 bg-D_gray-sliver">
         <div
           class="padding grid grid-cols-1 lg:grid-cols-3 lg:items-center lg:gap-5"
@@ -143,7 +144,7 @@
           <!-- TEXT -->
           <div class="flex flex-col mt-10 lg:col-span-2">
             <h1
-              class="text-4xl text-center font-semibold text-D_gray-DEFAUT md:text-5xl lg:text-left lg:text-6xl 2xl:text-7xl"
+              class="text-4xl text-center font-[545] text-D_gray-DEFAUT md:text-5xl lg:text-left lg:text-6xl 2xl:text-7xl lg:leading-[4.5rem]"
             >
               Lessons and insights <br />
               <span class="text-D_gray-primary"> from 8 years </span>
@@ -157,7 +158,7 @@
 
             <a
               href=""
-              class="bg-[#4CAF4F] text-white rounded-sm py-2 px-4 self-center mt-7 hover:bg-[#327535] md:mt-10 md:px-8 md:text-xl lg:self-start lg:rounded 2xl:text-3xl"
+              class="bg-[#4CAF4F] text-white font-[200] rounded-sm py-2 px-4 self-center mt-7 hover:bg-[#327535] md:mt-10 md:px-8 md:text-xl lg:self-start lg:rounded 2xl:text-3xl"
             >
               Register
             </a>
@@ -226,19 +227,19 @@
         <!--  cards container -->
         <div class="card-container">
           <!-- card 1 -->
-          <div class="card">
+          <div class="card xl:col-span-1 content-center">
             <img src="member.svg" alt="membership icon" class="card-img" />
             <h3 class="card-title">
               Membership <br />
               Organisations
             </h3>
-            <p class="card-description">
+            <p class="card-description px-0">
               Our membership management software provides full automation of
               membership renewals and payments
             </p>
           </div>
           <!-- card  2-->
-          <div class="card">
+          <div class="card xl:col-span-1 content-center">
             <img src="national.svg" alt="National icon" class="card-img" />
             <h3 class="card-title">
               National
@@ -246,22 +247,23 @@
 
               Associations
             </h3>
-            <p class="card-description">
+            <p class="card-description px-0">
               Our membership management software provides full automation of
               membership renewals and payments
             </p>
           </div>
           <!-- card 3-->
           <div
-            class="card xl:grid xl:col-span-2 xl:justify-items-center md:col-span-1"
+            class="card xl:grid xl:col-span-1 xl:justify-items-center md:col-span-1 xl:col-span-1"
           >
+            <!-- class="card xl:grid xl:col-span-2 xl:justify-items-center md:col-span-1 xl:col-span-1" -->
             <img src="group.svg" alt="Clubs And Groups icon" class="card-img" />
             <h3 class="card-title">
               <!-- Clubs And <br class="md:hidden" /> -->
               Clubs And <br />
               Groups
             </h3>
-            <p class="card-description xl:px-36 md:px-0 lg:px-3">
+            <p class="card-description md:px-0 lg:px-3 xl:px-0">
               Our membership management software provides full automation of
               membership renewals and payments
             </p>
@@ -294,7 +296,8 @@
               years at Pixelgrade
             </h3>
             <!-- <div class=""> -->
-            <div class="text-center xl:px-11 xl:mt-4m md:px-0">
+            <!-- <div class="text-center xl:px-11 xl:mt-4m md:px-0"> -->
+            <div class="text-center xl:mt-4m md:px-0">
               <p
                 class="text-D_gray-grey text-sm mt-4 px-5 text-center md:text-left md:px-0"
               >
@@ -330,7 +333,7 @@
         <!-- container wrapper -->
         <!-- <div class="pt-8 flex flex-wrap justify-center"> -->
         <div
-          class="pt-14 pb-24 grid grid-cols-1 md:grid-cols-2 md:items-end md:px-4 xl:pt-3 xl:pb-10"
+          class="pt-14 pb-24 grid grid-cols-1 md:grid-cols-2 md:items-end md:px-4 xl:pt-11 xl:pb-24"
         >
           <div>
             <h3
