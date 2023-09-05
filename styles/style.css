@@ -28,4 +28,7 @@
   .card-description {
     @apply text-D_gray-l_grey text-center text-sm mt-4 px-10 xl:px-36 md:px-0 lg:text-base lg:px-3;
   }
+  .open-navbar {
+    @apply flex !important;
+  }
 }
