@@ -15,6 +15,7 @@ export default {
           sliver: "#F5F7FA",
           primary: "#4CAF4F",
           dark: "#18191F",
+          dark_2: "#263238",
           white_grey: "#89939E",
         },
       },
