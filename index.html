@@ -18,42 +18,62 @@
     <header class="padding py-4">
       <nav class="flex justify-between items-center relative z-20 lg:flex">
         <!-- logo image -->
-        <div class="flex items-center gap-1 2xl:gap-2">
-          <img src="logo.svg" alt="Nexcent logo" />
-          <span class="text-xl font-semibold inline-block 2xl:text-3xl"
-            >Nexcent</span
-          >
-        </div>
+        <a href="#">
+          <div class="flex items-center gap-1 2xl:gap-2">
+            <img src="logo.svg" alt="Nexcent logo" />
+            <span class="text-xl font-semibold inline-block 2xl:text-3xl"
+              >Nexcent</span
+            >
+          </div>
+        </a>
         <!-- links -->
         <ul class="hidden lg:flex gap-8 items-center">
           <li>
-            <a href="#" class="text-base text-gray-700 2xl:text-2xl">Home</a>
-          </li>
-          <li>
-            <a href="#" class="text-base text-gray-700 2xl:text-2xl"
-              >Features</a
+            <a
+              href="#"
+              class="text-base text-gray-700 2xl:text-2xl hover:text-green-600"
+              >Home</a
             >
-          </li>
-          <li>
-            <a href="#" class="text-base text-gray-700 2xl:text-2xl"
-              >Community</a
-            >
-          </li>
-          <li>
-            <a href="#" class="text-base text-gray-700 2xl:text-2xl">Blog</a>
-          </li>
-          <li>
-            <a href="#" class="text-base text-gray-700 2xl:text-2xl">Pricing</a>
           </li>
           <li>
             <a
               href="#"
-              class="text-base bg-[#4CAF4F] rounded px-5 py-2 text-white flex items-center gap-1 2xl:text-2xl 2xl:py-3"
+              class="text-base text-gray-700 2xl:text-2xl hover:text-green-600"
+              >Features</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-base text-gray-700 2xl:text-2xl hover:text-green-600"
+              >Community</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-base text-gray-700 2xl:text-2xl hover:text-green-600"
+              >Blog</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-base text-gray-700 2xl:text-2xl hover:text-green-600"
+              >Pricing</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-base bg-[#4CAF4F] font rounded px-5 py-2 text-white flex items-center gap-1 2xl:text-2xl 2xl:py-3 hover:bg-[#327535]"
             >
               <!-- px-[1.5rem] py-[0.5rem] -->
 
               Register Now
               <span>
+                <!-- <ion-icon name="arrow-forward-outline"></ion-icon> -->
+
                 <svg
                   width="24"
                   height="24"
@@ -159,7 +179,7 @@
 
             <a
               href=""
-              class="bg-[#4CAF4F] text-white font-[200] rounded-sm py-2 px-4 self-center mt-7 hover:bg-[#327535] md:mt-10 md:px-8 md:text-xl lg:self-start lg:rounded 2xl:text-3xl"
+              class="bg-[#4CAF4F] text-white font-[400] rounded-sm py-2 px-4 self-center mt-7 hover:bg-[#327535] md:mt-10 md:px-8 md:text-xl lg:self-start lg:rounded 2xl:text-3xl"
             >
               Register
             </a>
@@ -381,13 +401,14 @@
           </div>
           <!-- cards container -->
           <div
-            class="grid grid-cols-2 mt-10 gap-5 mx-auto md:bg-slate-100 md:justify-items-stretch"
+            class="grid grid-cols-2 mt-10 gap-5 mx-auto md:bg-slate-100 md:justify-items-stretch lg:gap-y-9 lg:gap-x-16"
           >
+            <!-- class="grid grid-cols-2 mt-10 gap-5 mx-auto md:bg-slate-100 md:justify-items-stretch" -->
             <!-- card 1 -->
             <div class="flex gap-2">
               <img src="count-member.svg" alt="member icon" />
               <div class="flex flex-col">
-                <p class="text-D_gray-DEFAUT text-2xl font-semibold">
+                <p class="text-D_gray-DEFAUT text-xl md:text-2xl font-semibold">
                   2,245,341
                 </p>
                 <span class="text-D_gray-grey text-sm"> Members </span>
@@ -397,7 +418,9 @@
             <div class="flex gap-2">
               <img src="clubs.svg" alt="clubs icon" />
               <div class="flex flex-col">
-                <p class="text-D_gray-DEFAUT text-2xl font-semibold">46,328</p>
+                <p class="text-D_gray-DEFAUT text-xl md:text-2xl font-semibold">
+                  46,328
+                </p>
                 <span class="text-D_gray-grey text-sm"> Clubs </span>
               </div>
             </div>
@@ -405,7 +428,9 @@
             <div class="flex gap-2">
               <img src="booking.svg" alt="booking icon" />
               <div class="flex flex-col">
-                <p class="text-D_gray-DEFAUT text-2xl font-semibold">828,867</p>
+                <p class="text-D_gray-DEFAUT text-xl md:text-2xl font-semibold">
+                  828,867
+                </p>
                 <span class="text-D_gray-grey text-sm"> Event Bookings </span>
               </div>
             </div>
@@ -414,7 +439,7 @@
             <div class="flex gap-2">
               <img src="payments.svg" alt="member icon" />
               <div class="flex flex-col">
-                <p class="text-D_gray-DEFAUT text-2xl font-semibold">
+                <p class="text-D_gray-DEFAUT text-xl md:text-2xl font-semibold">
                   1,926,436
                 </p>
                 <span class="text-D_gray-grey text-sm"> Payments </span>
@@ -713,12 +738,14 @@
         <!-- <div class="md:row-start-1 md:mt-10"> -->
         <div class="mt-10">
           <!-- logo -->
-          <div class="flex items-center gap-1 2xl:gap-2">
-            <img src="footer-logo.svg" alt="Nexcent logo" class="w-7" />
-            <span class="text-white text-2xl font-semibold 2xl:text-3xl"
-              >Nexcent</span
-            >
-          </div>
+          <a href="#">
+            <div class="flex items-center gap-1 2xl:gap-2">
+              <img src="footer-logo.svg" alt="Nexcent logo" class="w-7" />
+              <span class="text-white text-2xl font-semibold 2xl:text-3xl"
+                >Nexcent</span
+              >
+            </div>
+          </a>
 
           <div class="mt-5 md:mt-7">
             <small
@@ -773,18 +800,16 @@
         <!-- stay up to date for mobile -->
         <div class="block mt-8 md:hidden">
           <h4 class="text-white text-xl font-semibold">Stay up to date</h4>
-          <form
-            action=""
-            method="get"
-            class="mt-4 xs:w-[60%] md:w-full lg:mt-6"
-          >
+          <form class="mt-4 w-[100%] md:w-full bg-red-600 lg:mt-6">
+            <!-- class="mt-4 lg:mt-6" -->
+            <!-- <form class="w-full"> -->
             <div
               class="bg-slate-500 rounded py-1 flex items-center justify-around focus:ring-bg-slate-600 focus:ring-opacity-50 focus:ring focus:ring-offset-2 active:bg-slate-600 lg:px-3 cursor-pointer"
             >
               <input
                 type="text"
                 placeholder="Your email address"
-                class="bg-slate-500 w-full md:w-full"
+                class="bg-slate-500 w-full"
               />
               <a href="">
                 <img src="send-icon.svg" alt="icon" class="w-5" />
