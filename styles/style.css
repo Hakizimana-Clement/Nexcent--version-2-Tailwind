@@ -26,7 +26,7 @@
     @apply text-D_gray-DEFAUT font-semibold  text-center text-xl;
   }
   .card-description {
-    @apply text-D_gray-l_grey text-center text-sm mt-4 px-10 xl:px-36 md:px-0 lg:text-base lg:px-3;
+    @apply text-D_gray-l_grey text-center text-sm mt-4 px-10 xs:w-[89%] xl:px-36  sm:w-[66%] md:px-0 lg:text-base lg:px-3;
   }
   .open-navbar {
     @apply flex !important;

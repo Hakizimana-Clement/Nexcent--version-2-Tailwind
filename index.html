@@ -564,23 +564,10 @@
                 </h4>
                 <a
                   href="#"
-                  class="text-base text-D_gray-primary font-semibold flex items-center justify-center gap-1 mt-3"
+                  class="text-base text-D_gray-primary font-semibold flex items-center justify-center gap-1 mt-3 hover:text-green-600"
                   >Read More
-                  <span>
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M16 16L19.2929 12.7071C19.6834 12.3166 19.6834 11.6834 19.2929 11.2929L16 8M19 12L5 12"
-                        stroke="#4CAF4F"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                      />
-                    </svg>
+                  <span class="inline-block mt-1">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
                   </span>
                 </a>
               </div>
@@ -598,25 +585,13 @@
                   What are your safeguarding responsibilities and how can you
                   manage them?
                 </h4>
+
                 <a
                   href="#"
-                  class="text-base text-D_gray-primary font-semibold flex items-center justify-center gap-1 mt-3"
+                  class="text-base text-D_gray-primary font-semibold flex items-center justify-center gap-1 mt-3 hover:text-green-600"
                   >Read More
-                  <span>
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M16 16L19.2929 12.7071C19.6834 12.3166 19.6834 11.6834 19.2929 11.2929L16 8M19 12L5 12"
-                        stroke="#4CAF4F"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                      />
-                    </svg>
+                  <span class="inline-block mt-1">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
                   </span>
                 </a>
               </div>
@@ -634,23 +609,10 @@
                 </h4>
                 <a
                   href="#"
-                  class="text-base text-D_gray-primary font-semibold flex items-center justify-center gap-1 mt-3"
+                  class="text-base text-D_gray-primary font-semibold flex items-center justify-center gap-1 mt-3 hover:text-green-600"
                   >Read More
-                  <span>
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M16 16L19.2929 12.7071C19.6834 12.3166 19.6834 11.6834 19.2929 11.2929L16 8M19 12L5 12"
-                        stroke="#4CAF4F"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                      />
-                    </svg>
+                  <span class="inline-block mt-1">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
                   </span>
                 </a>
               </div>
@@ -708,7 +670,8 @@
     <footer class="padding bg-D_gray-dark_2">
       <div class="grid px-5 md:grid-cols-4 md:gap-x-5 lg:pt-16">
         <!-- start logo and social media end -->
-        <div class="md:row-start-1 md:mt-10">
+        <!-- <div class="md:row-start-1 md:mt-10"> -->
+        <div class="mt-10">
           <!-- logo -->
           <div class="flex items-center gap-1 2xl:gap-2">
             <img src="footer-logo.svg" alt="Nexcent logo" class="w-7" />
@@ -717,24 +680,82 @@
             >
           </div>
 
-          <div class="mt-7">
-            <small class="text-D_gray-sliver text-xs leading-relaxed">
+          <div class="mt-5 md:mt-7">
+            <small
+              class="text-D_gray-sliver text-xs leading-relaxed hidden md:block"
+            >
               <p>Copyright © 2020 Landify UI Kit.</p>
               <p>All rights reserved</p>
             </small>
             <!-- social media icon -->
-            <div class="flex gap-4 mt-8 pb-4 md:mt-6">
-              <img src="instagram-icon.svg" alt="instagram icon" class="w-7" />
+            <div class="flex gap-4 pb-4 md:mt-6">
+              <a href="#">
+                <span>
+                  <ion-icon
+                    name="logo-instagram"
+                    class="px-2 py-2 text-white bg-gray-500 w-4 rounded-full hover:bg-gray-600 cursor-pointer"
+                  ></ion-icon>
+                </span>
+              </a>
+              <a href="#">
+                <span>
+                  <ion-icon
+                    name="logo-dribbble"
+                    class="px-2 py-2 text-white bg-gray-500 w-4 rounded-full hover:bg-gray-600 cursor-pointer"
+                  ></ion-icon>
+                </span>
+              </a>
+              <a href="#">
+                <span>
+                  <ion-icon
+                    name="logo-twitter"
+                    class="px-2 py-2 text-white bg-gray-500 w-4 rounded-full hover:bg-gray-600 cursor-pointer"
+                  ></ion-icon>
+                </span>
+              </a>
+              <a href="#">
+                <span>
+                  <ion-icon
+                    name="logo-youtube"
+                    class="px-2 py-2 text-white bg-gray-500 w-4 rounded-full hover:bg-gray-600 cursor-pointer"
+                  ></ion-icon>
+                </span>
+              </a>
+              <!-- <img src="instagram-icon.svg" alt="instagram icon" class="w-7" />
               <img src="dribbble-icon.svg" alt="dribbble icon" class="w-7" />
               <img src="twitter-icon.svg" alt="twitter icon" class="w-7" />
-              <img src="youtube-icon.svg" alt="youtube icon" class="w-7" />
+              <img src="youtube-icon.svg" alt="youtube icon" class="w-7" /> -->
             </div>
           </div>
         </div>
         <!-- end logo and social media end -->
 
+        <!-- stay up to date for mobile -->
+        <div class="block mt-8 md:hidden">
+          <h4 class="text-white text-xl font-semibold">Stay up to date</h4>
+          <form
+            action=""
+            method="get"
+            class="mt-4 xs:w-[60%] md:w-full lg:mt-6"
+          >
+            <div
+              class="bg-slate-500 rounded py-1 flex items-center justify-around focus:ring-bg-slate-600 focus:ring-opacity-50 focus:ring focus:ring-offset-2 active:bg-slate-600 lg:px-3 cursor-pointer"
+            >
+              <input
+                type="text"
+                placeholder="Your email address"
+                class="bg-slate-500 w-full md:w-full"
+              />
+              <a href="">
+                <img src="send-icon.svg" alt="icon" class="w-5" />
+              </a>
+            </div>
+          </form>
+        </div>
+
         <!-- links -->
-        <div class="row-start-1 mt-10 mb-14 md:col-span-3">
+        <!-- <div class="row-start-1 mt-10 mb-14 md:col-span-3"> -->
+        <div class="mt-16 md:mt-10 mb-14 md:col-span-3">
           <!-- link container -->
           <div class="md:grid grid-cols-3 md:justify-items-center gap-x-4">
             <!-- company -->
@@ -821,16 +842,21 @@
             </div>
 
             <!-- stay up to date -->
-            <div class="mt-10 md:mt-0">
+            <!-- <div class="mt-10 md:mt-0 "> -->
+            <div class="hidden md:block">
               <h4 class="text-white text-xl font-semibold">Stay up to date</h4>
-              <form action="" method="get" class="mt-4 lg:mt-6">
+              <form
+                action=""
+                method="get"
+                class="mt-4 w-[76%] xs:w-[60%] md:w-full lg:mt-6"
+              >
                 <div
                   class="bg-slate-500 rounded py-1 flex items-center justify-around focus:ring-bg-slate-600 focus:ring-opacity-50 focus:ring focus:ring-offset-2 active:bg-slate-600 lg:px-3 cursor-pointer"
                 >
                   <input
                     type="text"
                     placeholder="Your email address"
-                    class="bg-slate-500"
+                    class="bg-slate-500 w-full md:w-full"
                   />
                   <a href="">
                     <img src="send-icon.svg" alt="icon" class="w-5" />
@@ -840,6 +866,12 @@
             </div>
           </div>
         </div>
+        <small
+          class="text-D_gray-sliver text-xs leading-relaxed flex flex-col items-center gap-1 md:hidden"
+        >
+          <p>Copyright © 2020 Landify UI Kit.</p>
+          <p>All rights reserved</p>
+        </small>
       </div>
     </footer>
 
