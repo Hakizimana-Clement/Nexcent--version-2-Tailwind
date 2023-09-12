@@ -17,7 +17,8 @@
   }
   .card {
     /* @apply flex items-center flex-col  text-center mt-10; */
-    @apply grid justify-items-center xl:grid  xl:col-span-2 xl:justify-items-center md:col-span-1;
+    /* @apply grid   xl:grid  xl:col-span-2 xl:justify-items-center md:col-span-1; */
+    @apply grid justify-items-center mt-10 xl:grid   xl:col-span-2 xl:justify-items-center md:mt-0 md:col-span-1;
   }
   .card-img {
     @apply w-14;
@@ -26,7 +27,9 @@
     @apply text-D_gray-DEFAUT font-semibold  text-center text-xl;
   }
   .card-description {
-    @apply text-D_gray-l_grey text-center text-sm mt-4 px-10 xs:w-[89%] xl:px-36  sm:w-[66%] md:px-0 lg:text-base lg:px-3;
+    /* @apply text-D_gray-l_grey text-center text-sm mt-4 px-10 xs:w-[89%] xl:px-36  sm:w-[66%] md:px-0 lg:text-base lg:px-3; */
+    /* @apply text-D_gray-l_grey text-center text-sm mt-4 px-10 xs:w-[89%] xl:px-36  sm:w-[66%] md:w-[92%] lg:text-base lg:px-3; */
+    @apply text-D_gray-l_grey text-center text-sm mt-4 custom:w-[55%] xl:px-36  sm:w-[66%] md:w-[92%] lg:text-base lg:px-3;
   }
   .open-navbar {
     @apply flex !important;
